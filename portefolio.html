@@ -170,7 +170,7 @@
             <h2>My contact details</h2>
             <div class="centre">
                 <div class='logo'>
-                    <span class="iconify" data-icon="simple-icons:upwork"></span>
+                    <span class="iconify" data-icon="simple-icons:upwork" id="upwork"></span>
                     <h1 id="email">@</h1>
                 </div>
             </div>
@@ -205,6 +205,10 @@
         })();
         document.getElementById("email").addEventListener('click', function(event) {
             alert("Mon adresse mail est: arthurmonchicourt29@gmail.com");
+        });
+        
+       document.getElementById("upwork").addEventListener('click', function(event) {
+            document.location.href="https://www.upwork.com/freelancers/~01fdd7db286754756f";
         });
     </script>
 </body>
